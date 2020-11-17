@@ -1,28 +1,31 @@
 <template>
    <div id="app">
-      <img alt="Vue logo" src="./assets/logo.png" />
-      <HelloWorld msg="Welcome to Your Vue.js App" />
+      <Body :Postings="Postings" />
+      <Footer />
    </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Footer from "./components/Footer";
+import Body from "./components/Body";
+import Postdata from "./assets/postdata.js";
 
 export default {
    name: "App",
+   data() {
+      return {
+         Postings: Postdata,
+      };
+   },
    components: {
-      HelloWorld,
+      Footer: Footer,
+      Body: Body,
    },
 };
 </script>
 
 <style>
-#app {
-   font-family: Avenir, Helvetica, Arial, sans-serif;
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
-   text-align: center;
-   color: #2c3e50;
-   margin-top: 60px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap");
+@import "./components/Reset.css";
+@import "./components/Common.css";
 </style>
