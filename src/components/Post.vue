@@ -1,33 +1,40 @@
 <template>
-   <li class="post">
+   <li class="post" v-on:click="show">
       <div class="post_title">
          <h2>{{ Postings.name }}</h2>
-         <p>완료일 : {{ Postings.date }}</p>
-      </div>
-      <div class="post_exp">
-         <p>사용플러그인: {{ Postings.plugin }}</p>
-         <p>사용언어: {{ Postings.lan }}</p>
-         <p>{{ Postings.explan }}</p>
       </div>
       <div class="post_imgwrap">
          <img :src="require(`@/assets/images/${Postings.image}.png`)" />
       </div>
-      <a class="post_link" :href="`http://${Postings.url}`" target="_blank">사이트 이동하기</a>
    </li>
 </template>
 
 <script>
+import EventBus from "../bus.js";
+
 export default {
    props: {
       Postings: Object,
+   },
+   methods: {
+      show() {
+         EventBus.$emit("show", true);
+      },
    },
 };
 </script>
 
 <style>
 .post {
+   display: block;
    width: 30%;
    margin: 50px 0;
+   cursor: pointer;
+}
+.post_title > h2 {
+   font-size: 24px;
+   font-weight: normal;
+   padding-bottom: 10px;
 }
 .post_imgwrap > img {
    width: 100%;
