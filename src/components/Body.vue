@@ -1,5 +1,5 @@
 <template>
-   <div class="body">
+   <section class="body">
       <div class="jh_full">
          <div class="jh_wrap">
             <ul class="post_list">
@@ -12,7 +12,7 @@
             </ul>
          </div>
       </div>
-   </div>
+   </section>
 </template>
 
 <script>
@@ -35,6 +35,12 @@ export default {
 </script>
 
 <style>
+section.body {
+   display: flex;
+   align-items: center;
+   padding: 50px 0;
+   min-height: calc(100vh - 100px);
+}
 .post_list {
    display: flex;
    flex-wrap: wrap;

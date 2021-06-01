@@ -1,5 +1,5 @@
 <template>
-   <div class="footer">
+   <footer class="footer">
       <div class="jh_full">
          <div class="jh_wrap">
             <div class="jh_ft_box">
@@ -8,7 +8,7 @@
             </div>
          </div>
       </div>
-   </div>
+   </footer>
 </template>
 
 <script>
@@ -28,7 +28,7 @@ export default {};
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 50px 0;
+   height: 100px;
 }
 .jh_ft_box .jh_ft_name,
 .jh_ft_box .jh_ft_explan {

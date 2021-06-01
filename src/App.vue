@@ -12,13 +12,15 @@
             <div
                class="modal_contentimg"
                :style="{
-                  'background-image': 'url(' + require(`@/assets/images/${Postings[trans].image}.png`) + ')',
+                  'background-image': 'url(' + require(`@/assets/images/${Postings[trans].image}.jpg`) + ')',
                }"
             ></div>
             <div class="modal_textwrap">
-               <p class="modal_text">사용플러그인 : {{ Postings[trans].plugin }}</p>
                <p class="modal_text">사용언어 : {{ Postings[trans].lan }}</p>
+               <p class="modal_text">사용플러그인 : {{ Postings[trans].plugin }}</p>
+               <p class="modal_text">완성시기 : {{ Postings[trans].date }}</p>
                <p class="modal_text">설명 : {{ Postings[trans].explan }}</p>
+               <a class="fw_bold" v-if="Postings[trans].url" :href="Postings[trans].url" target="_blank">사이트 이동</a>
             </div>
          </div>
       </transition-group>
@@ -82,8 +84,8 @@ export default {
    top: 50%;
    left: 50%;
    width: 1000px;
-   height: 600px;
-   padding: 50px;
+   height: 700px;
+   padding: 50px 40px;
    background: #fff;
    border: 2px solid #444;
    text-align: left;
@@ -127,7 +129,10 @@ export default {
 }
 .slide-down-enter,
 .slide-down-leave-to {
-   transform: translate(-55%, -55%);
+   transform: translate(-50%, -55%);
    opacity: 0;
+}
+.fw_bold {
+   font-weight: bold;
 }
 </style>
