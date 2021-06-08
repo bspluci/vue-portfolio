@@ -1,0 +1,19 @@
+.footer {
+   position: initial;
+   bottom: 0;
+}
+.footer .jh_full {
+   background: #2c3e50;
+   color: #fff;
+}
+.jh_ft_box {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100px;
+}
+.jh_ft_box .jh_ft_name,
+.jh_ft_box .jh_ft_explan {
+   font-size: 18px;
+   font-weight: bold;
+}

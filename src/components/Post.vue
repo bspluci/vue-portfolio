@@ -23,23 +23,3 @@ export default {
    },
 };
 </script>
-
-<style>
-.post {
-   display: block;
-   width: 30%;
-   margin: 50px 0;
-   cursor: pointer;
-}
-.post_title > h2 {
-   font-size: 24px;
-   font-weight: normal;
-   padding-bottom: 10px;
-}
-.post_imgwrap > img {
-   width: 100%;
-   height: 100%;
-   max-width: 500px;
-   border: 1px solid #ccc;
-}
-</style>

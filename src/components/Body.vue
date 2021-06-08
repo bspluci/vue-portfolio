@@ -33,18 +33,3 @@ export default {
    },
 };
 </script>
-
-<style>
-section.body {
-   display: flex;
-   align-items: center;
-   padding: 50px 0;
-   min-height: calc(100vh - 100px);
-}
-.post_list {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   text-align: left;
-}
-</style>
