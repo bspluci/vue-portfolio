@@ -20,7 +20,9 @@
                <p class="modal_text">사용플러그인 : {{ Postings[trans].plugin }}</p>
                <p class="modal_text">완성시기 : {{ Postings[trans].date }}</p>
                <p class="modal_text">설명 : {{ Postings[trans].explan }}</p>
-               <a class="fw_bold" v-if="Postings[trans].url" :href="Postings[trans].url" target="_blank">사이트 이동</a>
+               <a class="modal_link" v-if="Postings[trans].url" :href="Postings[trans].url" target="_blank"
+                  >사이트 이동</a
+               >
             </div>
          </div>
       </transition-group>

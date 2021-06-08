@@ -63,8 +63,9 @@
    transform: translate(-50%, -55%);
    opacity: 0;
 }
-.fw_bold {
+.modal_link {
    font-weight: bold;
+   color: #53efbb;
 }
 @media screen and (max-width: 1024px) {
    .modal_content {
