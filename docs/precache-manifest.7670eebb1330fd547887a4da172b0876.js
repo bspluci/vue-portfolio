@@ -1,11 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5245750821ec82813b89",
+    "revision": "779fefa8e8a6c5241419",
     "url": "/vue-project/css/app.47dcfbc0.css"
   },
   {
+    "revision": "eb868da1a8ae508814c191e2f0720e85",
+    "url": "/vue-project/img/discord.eb868da1.jpg"
+  },
+  {
     "revision": "1a9a1518e68e51b7579cf4eeb7e14f3d",
-    "url": "/vue-project/img/discord.1a9a1518.jpg"
+    "url": "/vue-project/img/discord_old.1a9a1518.jpg"
   },
   {
     "revision": "807a281f18ebd0366de95d7e2080652b",
@@ -44,12 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-project/img/youp.7185de93.jpg"
   },
   {
-    "revision": "912b5dbb10d1e33622f99bb8669cde90",
+    "revision": "8329936fa3cc4048c6239b3fb8cf618e",
     "url": "/vue-project/index.html"
   },
   {
-    "revision": "5245750821ec82813b89",
-    "url": "/vue-project/js/app.51b27cdd.js"
+    "revision": "779fefa8e8a6c5241419",
+    "url": "/vue-project/js/app.40ba8f13.js"
   },
   {
     "revision": "2f6cb31d7bb202e5432a",
