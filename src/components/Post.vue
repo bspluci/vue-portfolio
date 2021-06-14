@@ -4,7 +4,7 @@
          <h2>{{ Postings.name }}</h2>
       </div>
       <div class="post_imgwrap">
-         <img :src="require(`@/assets/images/${Postings.image}.jpg`)" />
+         <img :src="require(`../assets/images/${Postings.image}.jpg`)" />
       </div>
    </li>
 </template>
