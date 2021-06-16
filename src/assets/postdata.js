@@ -5,8 +5,7 @@ export default [
       plugin: "없음",
       lan: "VUE",
       image: "vuestagram",
-      explan:
-         "뷰로 간단한 sns를 만들어봤습니다. 통신을통해 이미지를 불러오고 파일 업로드와 이미지 필터기능이 있습니다.",
+      explan: "뷰로 간단한 sns를 만들어봤습니다. 이미지를 불러오고 파일 업로드와 이미지 필터기능이 있습니다.",
    },
    {
       name: "디스코드 봇",
@@ -24,20 +23,20 @@ export default [
       lan: "HTML / CSS / javascript / JQuery / PHP / PHP MySQL",
       image: "forest",
       explan:
-         "퍼블리싱 및 스크립트, 게시판등 작업의 95%이상 혼자 도맡아 진행한 프로젝트 입니다. 서브페이지에 중복되는 메뉴나 배너들을 스크립트 처리해 간편하게 수정할 수 있도록 만들었고 중복되는 페이지들은 비동기로 불러와 처리했습니다.(다수의 페이지가 해시태그 사용을 위해 비동기에서 일반 페이지로 전환됐습니다.) 게시판은 그누보드 기반으로 처리했습니다. 후반부에 작업일정이 촉박해 클레스로 퍼블리싱 한 점이 많이 아쉽습니다.",
+         "퍼블리싱 및 스크립트, 게시판등 작업의 95%이상 혼자 도맡아 진행한 프로젝트 입니다. 서브페이지에 중복되는 메뉴나 배너들을 스크립트 처리해 간편하게 수정할 수 있도록 만들었고 중복되는 페이지들은 비동기로 불러와 처리했습니다.(다수의 페이지가 해시태그 사용을 위해 비동기에서 일반 페이지로 전환됐습니다.) 게시판은 그누보드 기반으로 처리했습니다.",
    },
    {
       name: "시너지팜",
-      url: "http://175.126.176.77/~pham/main",
+      url: "http://synergyphm.com/main/",
       plugin: "Swiper, Smooth Scrollbar",
       lan: "javascript / JQuery",
       image: "pham",
       explan:
-         "부드러운 스크롤 효과와 페럴렉스 효과를 같이 사용해야 하는데 플러그인 호환이 안돼 페럴렉스는 스크립트로 직접 만들어 적용했습니다. ",
+         "부드러운 스크롤 효과와 페럴렉스 효과를 같이 사용해야 하는데 플러그인 호환이 안돼 페럴렉스는 스크립트로 직접 만들어 적용했습니다.",
    },
    {
       name: "아이랑 놀이랑",
-      url: "http://175.126.176.77/~irang/main/index.html",
+      url: "http://inoritv.iedu4u.com/main/",
       plugin: "Swiper",
       lan: "HTML / CSS / javascript / JQuery / PHP / PHP MySQL",
       image: "irang",
