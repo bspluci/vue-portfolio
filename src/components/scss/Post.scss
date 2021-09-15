@@ -1,8 +1,12 @@
 .post {
    display: block;
-   width: 30%;
+   width: 32%;
    margin: 50px 0;
+   margin-right: calc((100% / 3 - 32% ) * 3 / 2);
    cursor: pointer;
+}
+.post:nth-child(3n) {
+   margin-right: 0;
 }
 .post_title > h2 {
    font-size: 24px;
@@ -27,7 +31,15 @@
    }
 }
 @media screen and (max-width: 640px) {
+   .post {
+      margin: 15px 0;
+   }
    .post_title > h2 {
       font-size: 18px;
+   }
+}
+@media screen and (max-width: 500px) {
+   .post_title > h2 {
+      font-size: 14px;
    }
 }
