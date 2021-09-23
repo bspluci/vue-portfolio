@@ -1,5 +1,19 @@
 export default [
    {
+      name: "JPNET",
+      url: "http://cnj02.cafe24.com",
+      lan: "HTML / CSS / javascript / jQuery / PHP MySQL / ",
+      image: "jpnet",
+      explan: "웹 전체 퍼블리싱 및 전문가 검색 기능 개발",
+   },
+   {
+      name: "Covid Test World",
+      url: "https://cnj2019.cafe24.com",
+      lan: "HTML / CSS / javascript / jQuery / PHP MySQL / ",
+      image: "covid",
+      explan: "웹 전체 퍼블리싱 및 해외여행에 필요한 코로나 검사 병원 검색 예약기능 개발, 그누보드 기반 회원관련 개발",
+   },
+   {
       name: "뷰스타그램",
       url: "https://bspluci.github.io/vuestagram",
       lan: "VUE",
@@ -35,32 +49,18 @@ export default [
       explan: "그누보드 관리자 페이지에서 유튜브 주소를 데이터베이스에 저장 후 AJAX로 불러와 서브페이지를 구성했습니다. 유튜브 썸네일로 슬라이드를 만들었고 클릭 시 모달창을 띄우며 동영상을 로드해 페이지 로딩을 줄였습니다. 데이터 저장 방법이나 불러오는 방법 문서에 뿌리는 방법 등 여러 가지로 많은 도움이 됐던 프로젝트였습니다.",
    },
    {
-      name: "유어폰",
-      url: "http://175.126.176.77/~youp/en/main/",
-      lan: "HTML / CSS / javascript / jQuery",
-      image: "youp",
-      explan: "웹 경험이 부족했던 때 진행했던 프로젝트입니다. 따로 기획이 없어 기본 디자인만 가지고 직접 효과들을 만들어 넣었습니다. 한국어 튜토리얼 사이트를 만들었는데 반응이 좋아 마이크로소프트 본사에서 직접 발주해 영문사이트를 완성했습니다. 지금 보면 지저분한 코드지만 그땐 나름 자신감을 가질 수 있던 계기가 됐습니다.",
-   },
-   {
-      name: "JPNET",
-      url: "http://cnj02.cafe24.com",
-      lan: "HTML / CSS / javascript / jQuery / PHP MySQL / ",
-      image: "jpnet",
-      explan: "웹 전체 퍼블리싱 및 전문가 검색 기능 개발",
-   },
-   {
-      name: "Covid Test World",
-      url: "https://cnj2019.cafe24.com",
-      lan: "HTML / CSS / javascript / jQuery / PHP MySQL / ",
-      image: "covid",
-      explan: "웹 전체 퍼블리싱 및 예약기능, 그누보드 기반 회원관련 개발 ",
-   },
-   {
       name: "DADAMat",
       url: "https://cnj01.cafe24.com",
       lan: "HTML / CSS / javascript / jQuery ",
       image: "dada",
       explan: "웹 전체 퍼블리싱",
+   },
+   {
+      name: "유어폰",
+      url: "http://175.126.176.77/~youp/en/main/",
+      lan: "HTML / CSS / javascript / jQuery",
+      image: "youp",
+      explan: "웹 경험이 부족했던 때 진행했던 프로젝트입니다. 따로 기획이 없어 기본 디자인만 가지고 직접 효과들을 만들어 넣었습니다. 한국어 튜토리얼 사이트를 만들었는데 반응이 좋아 마이크로소프트 본사에서 직접 발주해 영문사이트를 완성했습니다. 지금 보면 지저분한 코드지만 그땐 나름 자신감을 가질 수 있던 계기가 됐습니다.",
    },
    {
       name: "매머드커피",
