@@ -1,4 +1,4 @@
 module.exports = {
-   publicPath: "/vue-project",
+   publicPath: "/vue-protfolio",
    outputDir: "docs",
 };
