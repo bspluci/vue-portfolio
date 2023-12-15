@@ -1,8 +1,8 @@
 <template>
    <div id="app">
-      <Header />
-      <Body :Postings="Postings" />
-      <Footer />
+      <Header></Header>
+      <Body :Postings="Postings"></Body>
+      <Footer></Footer>
 
       <transition-group name="fade">
          <div class="modal_background" v-if="show" v-on:click="show = !show" :key="Postings[trans].name"></div>
